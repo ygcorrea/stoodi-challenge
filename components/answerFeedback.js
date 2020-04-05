@@ -46,14 +46,14 @@ const AnswerFeedback = ({ curValue, setResult, result, exercise, onReset }) => {
     if (curValue === undefined) return;
     const exec = {
       choice: curValue,
-      exercise_id: exercise.exercise_id
+      exercise_id: exercise.exercise_id,
     };
     fetch("https://8zqqb4wng6.execute-api.us-east-1.amazonaws.com/dev/", {
       method: "POST",
-      body: JSON.stringify(exec)
+      body: JSON.stringify(exec),
     })
-      .then(res => res.json())
-      .then(result => {
+      .then((res) => res.json())
+      .then((result) => {
         setResult(result.is_correct);
         setSended(true);
       });
@@ -61,10 +61,10 @@ const AnswerFeedback = ({ curValue, setResult, result, exercise, onReset }) => {
   const feedbackStyles = {};
 
   const buttonStyles = {
-    backgroundColor: "#3153f5"
+    backgroundColor: "#3153f5",
   };
 
-  if (curValue === undefined && !result)
+  if (curValue === undefined || curValue === null)
     buttonStyles.backgroundColor = "#dedede";
 
   if (result) feedbackStyles.backgroundColor = "#D4EFE4";
@@ -72,33 +72,33 @@ const AnswerFeedback = ({ curValue, setResult, result, exercise, onReset }) => {
 
   return (
     <StyledBox style={feedbackStyles}>
-      {result && 
+      {result && (
         <AnswerGrid>
           <span>Resposta correta</span>
           <p>Boa! Acertou em cheio.</p>
         </AnswerGrid>
-      }
-      {!result && result !== null && 
+      )}
+      {!result && result !== null && (
         <AnswerGrid>
           <span>Resposta incorreta</span>
           <p>Que tal tentar novamente?</p>
         </AnswerGrid>
-      }
+      )}
       <ButtonContainer>
-        {!sended && sended !== null && 
+        {!sended && sended !== null && (
           <StyledButton
             style={buttonStyles}
-            disabled={curValue === undefined}
+            disabled={curValue === undefined || curValue === null}
             onClick={onClickValidateButton}
           >
             Verificar Resposta
           </StyledButton>
-        }
+        )}
 
-        {sended && 
+        {sended && (
           <StyledButton
             style={buttonStyles}
-            disabled={curValue === undefined}
+            disabled={curValue === undefined || curValue === null}
             onClick={() => {
               onReset();
               setSended(false);
@@ -106,7 +106,7 @@ const AnswerFeedback = ({ curValue, setResult, result, exercise, onReset }) => {
           >
             {result ? "PRÓXIMA" : "REFAZER"}
           </StyledButton>
-        }
+        )}
       </ButtonContainer>
     </StyledBox>
   );
