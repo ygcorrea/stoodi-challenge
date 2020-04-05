@@ -13,11 +13,34 @@ const Home = () => (
     <Head>
       <title>Stoodi</title>
       <link rel="icon" href="/logo.png" />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Lato"
+      />
     </Head>
     <MenuDrawer />
-    <Container>
+    <div className="container">
       <Practice />
-    </Container>
+    </div>
+    <style jsx global>{`
+      .container {
+        min-height: 100vh;
+        padding: 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    `}</style>
+
+    <style jsx global>{`
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+        font-family: Lato, sans-serif !important;
+      }
+    `}</style>
   </div>
 );
 
