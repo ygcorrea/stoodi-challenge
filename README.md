@@ -1,22 +1,16 @@
-### Nome: 
-
-Yasmim Guimarães Corrêa
-
-### E-mail: 
-
-g.yascorrea@gmail.com
-
 # Getting started
 
 ## Para executar esse projeto é necessário:
 
 - Ter o yarn instalado no seu computador [https://classic.yarnpkg.com/en/docs/install/]([https://classic.yarnpkg.com/en/docs/install/]);
 
+- Ter o node instalado no seu computador [https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt]([https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt/]);
+
 - Clonar este projeto;
 
 - Abrir o projeto no terminal;
 
-- Executar o comando ```yarn dev```
+- Executar o comando `yarn build` para criar a versão de produção a ser visualizada e em seguida, o comando `yarn start` .
 
 - Abra [http://localhost:3000](http://localhost:3000) no seu browser para ver o resultado.
 
@@ -32,23 +26,5 @@ Criar um exercício de múltipla escolha usando HTML, CSS e Javascript. O aluno 
 - Feedback sobre a resposta do aluno.
 
 ## Layout
-### Imagem 1:
 
-![Cenário 1](https://static.stoodi.com.br/frontend-challenge/tela-1.png)
-___
-
-### Imagem 2:
-
-![Cenário 2](https://static.stoodi.com.br/frontend-challenge/tela-2.png)
-___
-
-### Imagem 3:
-
-![Cenário 3](https://static.stoodi.com.br/frontend-challenge/tela-3a.png)
-___
-
-### Imagem 4:
-
-![Cenário 4](https://static.stoodi.com.br/frontend-challenge/tela-3b.png)
-
-___
+![Stoodi](https://user-images.githubusercontent.com/58710976/78509209-ee7ea900-7762-11ea-8713-f59ff061e307.gif)
