@@ -1,5 +1,5 @@
 # FRONT-END CHALLENGE - Stoodi
->>Github-pages: [https://ygcorrea.github.io/stoodi-challenge/.]
+>>Github-pages: [https://ygcorrea.github.io/stoodi-challenge/]
 
 # Getting started
 
