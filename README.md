@@ -28,3 +28,8 @@ Criar um exercício de múltipla escolha usando HTML, CSS e Javascript. O aluno 
 ## Layout
 
 ![Stoodi](https://user-images.githubusercontent.com/58710976/78509209-ee7ea900-7762-11ea-8713-f59ff061e307.gif)
+
+
+![Stoodi1](https://user-images.githubusercontent.com/58710976/79511426-a9396180-8015-11ea-8f8a-733546239083.gif)
+
+
