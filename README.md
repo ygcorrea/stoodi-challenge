@@ -1,3 +1,6 @@
+# FRONT-END CHALLENGE - Stoodi
+>>Github-pages: [https://ygcorrea.github.io/stoodi-challenge/.]
+
 # Getting started
 
 ## Para executar esse projeto é necessário:
