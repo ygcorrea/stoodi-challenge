@@ -4,9 +4,9 @@
 
 ## Para executar esse projeto é necessário:
 
-- Ter o yarn instalado no seu computador [https://classic.yarnpkg.com/en/docs/install/]([https://classic.yarnpkg.com/en/docs/install/]);
+- Ter o yarn instalado [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/);
 
-- Ter o node instalado no seu computador [https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt]([https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt/]);
+- Ter o node instalado [https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04-pt/);
 
 - Clonar este projeto;
 
